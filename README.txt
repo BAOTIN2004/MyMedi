@@ -31,10 +31,13 @@ Phần push & pull code của Leader cũng giống như Member
 >>> Đều phải $ git add .
 >>> Với $ git commit -m"message"
 
-____________________ Pull code repo Leader về repo Member ____________________
+____________________ Sau khi Push code - Pull code repo Leader về repo Member ____________________
+Sau khi Push code lên repo của Leader, Member:
 B1: Vào repo của Member
 B2: Ở dòng chữ "This branch is ... commit ahead of minhkhanh-coder.main" phía bên phải có nút Sync fork > Update branch
 >>> Pull code từ repo Leader về repo Member
+B3: git pull origin main
+>>> Pull code từ repo Member về máy
 
 ____________________ Commit ____________________
 $ git commit -m"message"
