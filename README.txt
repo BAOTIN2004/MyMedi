@@ -32,7 +32,7 @@ Phần push & pull code của Leader cũng giống như Member
 >>> Với $ git commit -m"message"
 
 ____________________ Sau khi Push code - Pull code repo Leader về repo Member ____________________
-Sau khi Push code lên repo của Leader, Member:
+Sau khi Push code lên repo của Leader và được Merger > Member phải Pull code từ repo Leader về lại repo Member để pull code về máy.
 B1: Vào repo của Member
 B2: Ở dòng chữ "This branch is ... commit ahead of minhkhanh-coder.main" phía bên phải có nút Sync fork > Update branch
 >>> Pull code từ repo Leader về repo Member
